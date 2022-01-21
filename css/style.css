@@ -16,6 +16,11 @@ body {
     color: #FFF;
 }
 
+.animacion:hover {
+    transform: scale(1);
+    font-family: 'Courier New', Courier, monospace;
+}
+
 
 /*Sobre mi*/
 
