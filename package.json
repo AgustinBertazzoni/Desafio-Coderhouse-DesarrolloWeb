@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap-completo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgustinBertazzoni/bootstrap-completo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AgustinBertazzoni/bootstrap-completo/issues"
+  },
+  "homepage": "https://github.com/AgustinBertazzoni/bootstrap-completo#readme",
+  "description": "",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}

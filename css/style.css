@@ -1,89 +1,81 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: rgb(245, 243, 243);
+  background-color: #f5f3f3;
 }
 
 /*NavBar*/
-.nav {
-    background-color: black;
+header .nav {
+  background-color: black;
 }
-
-.nav-letra {
-    color: #FFF;
+header .nav .container-fluid div ul li .nav-letra {
+  color: #FFF;
 }
-
-.animacion:hover {
-    transform: scale(1);
-    font-family: 'Courier New', Courier, monospace;
+header .nav .container-fluid div ul li .animacion:hover {
+  transform: scale(1);
+  font-family: "Courier New", Courier, monospace;
+  color: blue;
 }
-
 
 /*Sobre mi*/
-
-.img-fondo {
-   height: 600px;
-   background-image: url(../img/fondo-principal.jpg); 
-   background-size: cover;
-   opacity: 0.9;
+section div div .img-fondo {
+  height: 600px;
+  background-image: url(../img/fondo-principal.jpg);
+  background-size: cover;
+  opacity: 0.9;
 }
-.color-presentacion {
-    color: #FFF;
+section div div .img-fondo .color-presentacion {
+  color: #FFF;
 }
 
 /*Mis pasiones*/
-.fondo-card {
-    background-color: rgb(245, 243, 243)
+section div div .fondo-card {
+  background-color: #f5f3f3;
 }
 
-/*Imagen separadora*/
-.img-separadora {
-    background-image: url(../img/separadora1.png);
-    background-size: cover;
-    height: 300px;
-    margin: 5% 0% 7% 0%;
-    padding: 0%;
+/*Img separadora*/
+div .img-separadora {
+  background-image: url(../img/separadora1.png);
+  background-size: cover;
+  height: 300px;
+  margin: 5% 0% 7% 0%;
+  padding: 0%;
 }
-
 
 /*Conocimientos*/
-
-.img-conocimiento {
-    background-image: url(../img/programador.jpg);
-    background-size: cover;
+section div div .img-conocimiento {
+  background-image: url(../img/programador.jpg);
+  background-size: cover;
+}
+@media only screen and (max-width: 600px) {
+  section div div .img-conocimiento {
+    display: none;
+  }
 }
 
-@media only screen and (max-width: 600px) { 
-    .img-conocimiento {
-        display: none;
-    }
+/*Img separadora2*/
+div .img-separadora2 {
+  background-image: url(../img/separadora2.png);
+  background-size: cover;
+  height: 300px;
+  margin: 7% 0% 7% 0%;
+  padding: 0%;
 }
-
-/*Imagen separadora 2*/
-.img-separadora2 {
-    background-image: url(../img/separadora2.png);
-    background-size: cover;
-    height: 300px;
-    margin: 7% 0% 7% 0%;
-    padding: 0%;
-}
-
 
 /*Contacto*/
-#boton {
-    display: flex;
-    justify-content: center;
+section div div div #boton {
+  display: flex;
+  justify-content: center;
+}
+section div div div i {
+  font-size: 38px;
+  margin: 2% 0% 2% 0%;
+}
+section div div div i #icono {
+  text-decoration: none;
 }
 
-i {
-    font-size: 38px;
-    margin: 2% 0% 2% 0%;
-}
-
-#icono {
-    text-decoration: none;
-}
-
+/*# sourceMappingURL=style.css.map */
