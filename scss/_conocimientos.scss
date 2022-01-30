@@ -1,0 +1,17 @@
+/*Conocimientos*/
+section {
+    div {
+        div {
+            .img-conocimiento {
+                background-image: url(../img/programador.jpg);
+                background-size: cover;
+            }
+            
+            @media only screen and (max-width: 600px) { 
+                .img-conocimiento {
+                    display: none;
+                }
+            }
+        }
+    }
+}

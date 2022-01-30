@@ -36,7 +36,7 @@ section div div .fondo-card {
   background-color: #f5f3f3;
 }
 
-/*Img separadora*/
+/*Img separadora 1*/
 div .img-separadora {
   background-image: url(../img/separadora1.png);
   background-size: cover;
@@ -56,7 +56,7 @@ section div div .img-conocimiento {
   }
 }
 
-/*Img separadora2*/
+/*Img separadora 2*/
 div .img-separadora2 {
   background-image: url(../img/separadora2.png);
   background-size: cover;

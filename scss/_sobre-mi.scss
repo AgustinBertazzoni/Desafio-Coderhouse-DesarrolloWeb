@@ -1,0 +1,16 @@
+/*Sobre mi*/
+section {
+    div {
+        div {
+            .img-fondo {
+                height: 600px;
+                background-image: url(../img/fondo-principal.jpg); 
+                background-size: cover;
+                opacity: 0.9;
+                .color-presentacion {
+                    color: #FFF;
+                }
+            }
+        }
+    }
+}
