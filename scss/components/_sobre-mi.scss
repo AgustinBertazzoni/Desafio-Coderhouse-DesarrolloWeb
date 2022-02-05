@@ -1,0 +1,18 @@
+/*Sobre mi*/
+@import "../base/mapas";
+
+section {
+    div {
+        div {
+            .img-fondo {
+                height: map-get($img-fondo1, height);
+                background-image: map-get($img-fondo1, background-image); 
+                background-size: map-get($img-fondo1, background-size);
+                opacity: map-get($img-fondo2, opacity);
+                .color-presentacion {
+                    color: #FFF;
+                }
+            }
+        }
+    }
+}

@@ -7,6 +7,7 @@ body {
     background-color: rgb(245, 243, 243);
 }
 
+@import "../base/mixins";
 
 /*NavBar*/
 header {
@@ -19,11 +20,8 @@ header {
                         .nav-letra {
                             color: #FFF;
                         }
-
                         .animacion:hover {
-                            transform: scale(1);
-                            font-family: 'Courier New', Courier, monospace;
-                            color: blue;
+                            @include medidas(scale(1.3), "'Courier New', Courier, monospace" , blue);
                         }
                     }
                 }

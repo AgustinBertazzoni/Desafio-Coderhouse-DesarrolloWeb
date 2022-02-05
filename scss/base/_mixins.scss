@@ -1,0 +1,11 @@
+/*Mixins*/
+
+@mixin medidas($transformacion, $letra, $color) {
+    transform: $transformacion;
+    font-family: $letra;
+    color: $color;
+    
+}
+
+
+

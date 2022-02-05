@@ -1,7 +1,10 @@
-@import "header";
-@import "sobre-mi";
-@import "mis-pasiones";
-@import "separadora1";
-@import "conocimientos";
-@import "separadora2";
-@import "contacto";
+@import "components/header";
+@import "components/sobre-mi";
+@import "components/mis-pasiones";
+@import "components/separadora1";
+@import "components/conocimientos";
+@import "components/separadora2";
+@import "components/contacto";
+@import "base/mapas";
+@import "base/extends";
+@import "base/mixins";
